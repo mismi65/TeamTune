@@ -119,8 +119,11 @@ header.top{border-bottom:1px solid #eef2f1;}
 .tile .mark-dot{width:34px;height:34px;border-radius:8px;background:var(--mint);margin-bottom:22px;}
 .tile h3{font-size:19px;margin-bottom:10px;}
 .tile p{font-size:15px;color:var(--text-soft);margin-bottom:16px;}
-.tile p.result{font-size:14px;color:var(--navy);font-weight:500;margin-bottom:0;}
+.tile p.result{font-size:14px;color:var(--navy);font-weight:500;margin-bottom:10px;}
+.tile p.result:last-child{margin-bottom:0;}
 .tile p.result span{color:var(--teal);font-weight:700;}
+.tile p.example{font-size:14px;color:var(--text-soft);font-style:italic;margin-bottom:0;}
+.tile p.example span{color:var(--teal);font-weight:700;font-style:normal;}
 .tile a.meer{
   display:inline-block;
   margin-top:14px;
