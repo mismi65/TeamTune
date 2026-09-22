@@ -102,6 +102,13 @@ header.top{border-bottom:1px solid #eef2f1;}
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
   gap:28px;
 }
+.diensten-grid.cols-4{grid-template-columns:repeat(4,1fr);}
+@media (max-width:900px){
+  .diensten-grid.cols-4{grid-template-columns:repeat(2,1fr);}
+}
+@media (max-width:600px){
+  .diensten-grid.cols-4{grid-template-columns:1fr;}
+}
 .tile{
   background:var(--white);
   border-radius:10px;
