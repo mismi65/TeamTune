@@ -151,6 +151,7 @@ header.top{border-bottom:1px solid #eef2f1;}
 }
 .step h4{font-size:16px;margin-bottom:8px;}
 .step p{font-size:14px;color:var(--text-soft);margin:0;}
+.methode img.diagram{max-width:100%;margin:0 auto 40px;display:block;}
 .closing{
   font-family:'Manrope',sans-serif;
   font-weight:500;
