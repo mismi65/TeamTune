@@ -224,6 +224,15 @@ header.top{border-bottom:1px solid #eef2f1;}
 }
 .contact-form button:hover{background:var(--navy-deep);}
 .contact-form .hp{display:none;}
+.form-status{
+  font-family:'Manrope',sans-serif;
+  font-weight:600;
+  font-size:15px;
+  margin-top:16px;
+  display:none;
+}
+.form-status.success{color:var(--teal);display:block;}
+.form-status.error{color:#c0392b;display:block;}
 
 /* CTA BAND */
 .cta-band{
