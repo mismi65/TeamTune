@@ -1,9 +1,9 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/:path*",
+      "src": "/(.*)",
       "has": [{ "type": "host", "value": "ai-scan.teamtune.nl" }],
-      "destination": "https://teamtune-ai-scan.mike-smit.workers.dev/:path*"
+      "dest": "https://teamtune-ai-scan.mike-smit.workers.dev/$1"
     }
   ]
 }
